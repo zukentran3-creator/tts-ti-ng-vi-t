@@ -1,0 +1,11 @@
+services:
+  tts:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - kokoro-model-cache:/model-cache
+    restart: unless-stopped
+
+volumes:
+  kokoro-model-cache:

@@ -1,0 +1,6 @@
+huggingface-hub>=0.30,<2
+numpy>=1.26,<3
+onnxruntime-gpu>=1.20,<2
+soundfile>=0.12,<1
+torch>=2.2,<3
+vig2p==0.1.2
